@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Autoplay usage demo">
+    <meta name="author" content="David Deutsch">
+    <title>
+      TEST POSTER CAROUSEL
+    </title>
+
+    <!-- Stylesheets -->
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owl.carousel.css">
+    <link rel="stylesheet" href="assets/main.css">
+	<link rel="stylesheet" href="assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">
+	
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Yeah i know js should not be in header. Its required for demos.-->
+	    <!-- javascript -->
+	    <script src="assets/jquery-2.2.3.min.js"></script>
+	    <script src="assets/owl.carousel.js"></script>
+	    <script src="assets/owl.carousel.min.js"></script>
+
+  </head>
+  <body>
+
+<div id="top-header" class="header">
+<div class="conference-title"><img align="right" src="img/stsci_sec_combo_mark_horizonal_dark_bkgd.png" alt="STScI">
+<a href="https://github.com/spacetelescope/poster_carousel">TEST POSTER CAROUSEL</a>
+</div>	
+</div>
+    <!--  Demos -->
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+			<div class="customNavigation">
+			  <a class="btn prev">Previous</a>
+			  <a class="btn play">Play</a>
+			  <a class="btn stop">Stop</a>
+			  <a class="btn next">Next</a>
+			</div>
+            
+          <div class="owl-carousel owl-theme">

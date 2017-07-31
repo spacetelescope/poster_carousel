@@ -1,0 +1,41 @@
+                  </div>
+          		
+        </div>
+      </div>
+    </section>
+
+          <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+				singleItem : true,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoHeight: true,
+                autoplayTimeout: 10000,
+                autoplayHoverPause: false,
+			    nav: false,
+				goToFirstSpeed : 1,
+              })
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [10000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+		      // Custom Navigation Events
+		      $('.next').on('click', function() {
+		        owl.trigger('next.owl')
+		      })
+		      $('.prev').on('click', function() {
+		        owl.trigger('prev.owl')
+		      })
+            });
+          </script>
+
+
+    <!-- footer -->
+  </body>
+</html>

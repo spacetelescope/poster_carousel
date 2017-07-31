@@ -1,0 +1,84 @@
+body {
+	color:#666666;
+	font-family:'Open Sans';
+	font-size:14px;
+	font-weight:300;
+	line-height:23px;
+	background-color:#fff;
+}
+
+.item {
+	color:black;
+	font-family:'Open Sans';
+	font-size:12px;
+	font-weight:400;
+	line-height:23px;
+}
+
+.button {
+	font-family:'Open Sans';
+	font-weight:800;
+	text-transform: uppercase;
+	font-size: 10px;
+	right: 0;
+	padding: 4px;
+	margin-right:10px;
+	color:black;
+	text-decoration: none;
+}
+
+.navbuttons {
+    top:10;
+    left:10;
+    position:fixed;
+    z-index:1000;
+}
+
+a {
+    color:inherit;    
+}
+
+.poster_title {
+    padding-left:10px;
+    height:20px;
+    padding-top:0px;
+    line-height:150%;
+	padding: 10px 10px 20px 10px;
+	font-size: 15px;
+}
+
+.boldname {
+    color: black;
+    font-weight:800;}
+
+.header {
+	background-color:#3E8DDD;
+	height:50px;
+	padding:10px,10px,10px,10px;	
+}
+
+#top-header {
+	background-color:#3E8DDD;
+	height:50px;
+	padding:10px,10px,10px,10px;
+}
+
+.conference-title{
+	color:white;
+	font-weight: 200;
+	font-size:25px;
+	padding-left: 20px;
+	line-height:50px;
+	vertical-align: middle;
+	width: 95%;
+}
+
+.header img{
+	height: 50px;
+	vertical-align: top;
+	float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
